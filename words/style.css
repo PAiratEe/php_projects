@@ -1,0 +1,26 @@
+body {
+    font-family: "Comic Sans MS";
+}
+
+input {
+    outline: none;
+    border: none;
+    font-family: "Comic Sans MS";
+    font-size: medium;
+}
+
+td {
+    width: 40px;
+}
+
+.w {
+    border: 2px solid black;
+}
+
+.check {
+    font-family: "Comic Sans MS";
+    font-size: medium;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+}

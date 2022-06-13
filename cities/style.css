@@ -1,0 +1,23 @@
+body {
+    font-family: "Comic Sans MS";
+    color: ghostwhite;
+    text-shadow: 2px 2px 2px dodgerblue;
+    background-color: deepskyblue;
+}
+
+.make {
+    margin: 10px;
+    width: 200px;
+    font-family: "Comic Sans MS";
+    color: deepskyblue;
+}
+
+input {
+    background-color: ghostwhite;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    border-radius: 8px;
+    color: deepskyblue;
+}

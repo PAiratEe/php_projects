@@ -1,0 +1,52 @@
+body {
+    font-family: "Comic Sans MS";
+}
+
+h1 {
+    font-style: italic;
+    color: gold;
+    text-shadow: 2px 2px 4px black;
+}
+
+table {
+    padding: 10px;
+}
+
+th {
+    padding: 10px 25px;
+    text-align: left;
+    font-size: 18px;
+}
+
+input {
+    background-color: #deb887;
+    border: 1px gray solid;
+    border-radius: 3px;
+    width: 150px;
+    font-size: 18px;
+}
+
+select {
+    background-color: #deb887;
+    border: 1px gray solid;
+    border-radius: 3px;
+    width: 150px;
+    font-size: 18px;
+}
+
+div {
+    position: absolute;
+    width: 200px;
+    top: 157px;
+    left: 740px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+img {
+    border-radius: 30px;
+}
+
+td {
+    padding: 10px;
+}

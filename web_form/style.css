@@ -1,0 +1,60 @@
+body {
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    color: darkviolet;
+    text-shadow: 2px 2px 4px blue;
+    filter: contrast(20);
+    background: url("fon.png");
+}
+
+table {
+    border: 2px deeppink solid;
+}
+
+th {
+    padding: 10px 25px;
+    text-align: left;
+    font-size: 18px;
+    border: 2px deeppink solid;
+    border-radius: 3px;
+}
+
+.hdr {
+    width: 300px;
+    background: transparent;
+    border: 1px solid deeppink;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 13px;
+}
+
+select {
+    width: 300px;
+    align-content: center;
+    color: white;
+    text-shadow: 3px 3px 4px blue;
+    background: transparent;
+    border: 1px solid deeppink;
+    text-shadow: 1px 1px 1px black;
+    font-size: 13px;
+}
+
+textarea {
+    width: 300px;
+    background: transparent;
+    border: 1px solid deeppink;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 13px;
+}
+
+.create {
+    width: 300px;
+    margin: 10px;
+    background: darkmagenta;
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    font-size: 16px;
+    border: 2px deeppink solid;
+    border-radius: 3px;
+}

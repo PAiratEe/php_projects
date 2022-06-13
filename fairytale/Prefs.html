@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Story</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#deb887">
+<center>
+<h1>Story</h1>
+<h3>Пожалуйста, заполните пропуски и я расскажу вам "сказку"</h3>
+<form method="post" action="index.php">
+    <table border="1">
+        <tr>
+            <th>Местоимение</th>
+            <th>
+                <select name="pronoun">
+                    <option value="Я">Я</option>
+                    <option value="Ты">Ты</option>
+                    <option value="Он">Он</option>
+                    <option value="Тот">Тот</option>
+                    <option value="" selected>Выберите...</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>Раса/Нация</th>
+            <th>
+                <input type="text" name="race" value="">
+            </th>
+        </tr>
+        <tr>
+            <th>Язык</th>
+            <th>
+                <select name="lang">
+                    <option value="Русский">Русский</option>
+                    <option value="Татарский">Татарский</option>
+                    <option value="Чувашский">Чувашский</option>
+                    <option value="Уйгурский">Уйгурский</option>
+                    <option value="" selected>Выберите...</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>Известная личность</th>
+            <th>
+                <input type="text" name="celeb" value="">
+            </th>
+        </tr>
+        <tr>
+            <td colspan="10">
+                <center>
+                    <input type="submit" value="Рассказать">
+                </center>
+            </td>
+        </tr>
+    </table>
+</form>
+</center>
+</body>
+</html>
